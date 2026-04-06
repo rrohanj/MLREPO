@@ -1,6 +1,6 @@
-# HydroLogic AI: Real-Time Water Potability Monitoring
+# HydroLogic : Real-Time Water Potability Monitoring
 
-**HydroLogic AI** is an end-to-end Machine Learning solution designed to classify water safety based on physicochemical sensor metrics. By leveraging advanced data rebalancing techniques and explainable AI, this project provides a transparent, high-recall system for real-time water quality assurance.
+**HydroLogic ** is an end-to-end Machine Learning solution designed to classify water safety based on physicochemical sensor metrics. By leveraging advanced data rebalancing techniques and explainable AI, this project provides a transparent, high-recall system for real-time water quality assurance.
 
 ## 🚀 Key Features
 
@@ -62,8 +62,9 @@ We use SHAP summary plots to identify the global impact of features. Our analysi
 
 ## 🤝 Contributors
 
-- **Rohan Dharmesh Joshi** - [Your GitHub Profile]
-- **[Partner Name]** - [Partner GitHub Profile]
+- **Rohan Dharmesh Joshi**
+- **Bhargaveepriya**
+- **Aswath**
 
 ## 📜 License
 
