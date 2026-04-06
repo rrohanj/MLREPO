@@ -1,6 +1,6 @@
 # HydroLogic : Real-Time Water Potability Monitoring
 
-**HydroLogic ** is an end-to-end Machine Learning solution designed to classify water safety based on physicochemical sensor metrics. By leveraging advanced data rebalancing techniques and explainable AI, this project provides a transparent, high-recall system for real-time water quality assurance.
+**HydroLogic** is an end-to-end Machine Learning solution designed to classify water safety based on physicochemical sensor metrics. By leveraging advanced data rebalancing techniques and explainable AI, this project provides a transparent, high-recall system for real-time water quality assurance.
 
 ## 🚀 Key Features
 
