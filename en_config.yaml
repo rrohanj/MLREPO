@@ -1,0 +1,23 @@
+# C-SHIFT Cascade Thresholds
+thresholds:
+  relevance: 0.15 # Stage 1: MiniLM Similarity Gate
+  trust: 0.20 # Stage 2: mDeBERTa Logical Entailment Gate
+  hallucination_kl: 0.10 # Stage 3: TinyLlama Probabilistic Kernel
+
+# Model Selection
+models:
+  # Multilingual Bi-Encoder for Semantic Pruning
+  relevance: 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
+
+  # Multilingual Cross-Encoder for Logical NLI
+  trust: 'MoritzLaurer/mDeBERTa-v3-base-mnli-xnli'
+
+  # Quantized LLM for Log-Probability Delta Calculation
+  math_kernel: 'TinyLlama/TinyLlama-1.1B-Chat-v1.0'
+
+# Hardware & Performance Optimizations (Crucial for RTX 4060)
+settings:
+  use_gpu: true
+  quantization: '4bit' # Uses BitsAndBytes nf4
+  max_length: 1024 # Prevents "indexing errors" for long RAG context
+  batch_size: 1 # Recommended for precise token-level KL shifts
